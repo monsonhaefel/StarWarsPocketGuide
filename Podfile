@@ -12,12 +12,6 @@ target 'StarWarsPocketGuide' do
     inherit! :search_paths
     # Pods for testing
   end
-
-  target 'StarWarsPocketGuideUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
 
 #
