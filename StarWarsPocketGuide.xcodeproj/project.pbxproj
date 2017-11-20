@@ -10,7 +10,6 @@
 		FA2B1E041FC1D39400F518D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2B1E021FC1D39400F518D4 /* Main.storyboard */; };
 		FA2B1E061FC1D39400F518D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2B1E051FC1D39400F518D4 /* Assets.xcassets */; };
 		FA2B1E201FC1D46300F518D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2B1E1E1FC1D46300F518D4 /* LaunchScreen.storyboard */; };
-		FA2B1E2D1FC1D51C00F518D4 /* GeneralListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E221FC1D51B00F518D4 /* GeneralListCell.swift */; };
 		FA2B1E2E1FC1D51C00F518D4 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E231FC1D51B00F518D4 /* Enumerations.swift */; };
 		FA2B1E2F1FC1D51C00F518D4 /* GeneralListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E241FC1D51B00F518D4 /* GeneralListVC.swift */; };
 		FA2B1E301FC1D51C00F518D4 /* FilmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E251FC1D51B00F518D4 /* FilmVC.swift */; };
@@ -43,7 +42,6 @@
 		FA2B1E151FC1D39400F518D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA2B1E1F1FC1D46300F518D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA2B1E211FC1D51B00F518D4 /* StarWarsPocketGuide-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarWarsPocketGuide-Bridging-Header.h"; sourceTree = "<group>"; };
-		FA2B1E221FC1D51B00F518D4 /* GeneralListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralListCell.swift; sourceTree = "<group>"; };
 		FA2B1E231FC1D51B00F518D4 /* Enumerations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
 		FA2B1E241FC1D51B00F518D4 /* GeneralListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralListVC.swift; sourceTree = "<group>"; };
 		FA2B1E251FC1D51B00F518D4 /* FilmVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmVC.swift; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				FA2B1E231FC1D51B00F518D4 /* Enumerations.swift */,
 				FA2B1E2C1FC1D51C00F518D4 /* Extensions.swift */,
 				FA2B1E251FC1D51B00F518D4 /* FilmVC.swift */,
-				FA2B1E221FC1D51B00F518D4 /* GeneralListCell.swift */,
 				FA2B1E241FC1D51B00F518D4 /* GeneralListVC.swift */,
 				FA2B1E261FC1D51B00F518D4 /* LaunchScreen.storyboard */,
 				FA2B1E291FC1D51C00F518D4 /* Main.storyboard */,
@@ -272,7 +269,6 @@
 				FA2B1E331FC1D51C00F518D4 /* AppDelegate.swift in Sources */,
 				FA2B1E301FC1D51C00F518D4 /* FilmVC.swift in Sources */,
 				FA2B1E321FC1D51C00F518D4 /* ActivityIndicator.swift in Sources */,
-				FA2B1E2D1FC1D51C00F518D4 /* GeneralListCell.swift in Sources */,
 				FA2B1E2E1FC1D51C00F518D4 /* Enumerations.swift in Sources */,
 				FA2B1E2F1FC1D51C00F518D4 /* GeneralListVC.swift in Sources */,
 				FA2B1E351FC1D51C00F518D4 /* PropsNavigationCell.swift in Sources */,
