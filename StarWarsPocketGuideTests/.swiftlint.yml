@@ -1,0 +1,36 @@
+disabled_rules:
+    - line_length
+    - identifier_name
+opt_in_rules:
+    - array_init
+    - attributes
+    - closure_end_indentation
+    - closure_spacing
+    - conditional_returns_on_newline
+    - explicit_enum_raw_value
+    - explicit_init
+    - explicit_top_level_acl
+    - explicit_type_interface
+    - fatal_error_message
+    - first_where    
+    - implicit_return
+    - implicitly_unwrapped_optional
+    - joined_default_parameter
+    - literal_expression_end_indentation
+    - multiline_arguments
+    - multiline_parameters
+    - operator_usage_whitespace
+    - redundant_nil_coalescing
+    - switch_case_on_newline
+    - trailing_closure
+    - vertical_parameter_alignment_on_call
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+    
+
+#   - extension_access_modifier      This one is good for making sure extensions are 
+#                                    public but it barfs if the extension is public and 
+#                                    method is also public. Not sure why.
+
+#   - unneeded_parentheses_in_closure_argument   This is a style issue and I'm going with
+#                                                keeping the parentheses for now.

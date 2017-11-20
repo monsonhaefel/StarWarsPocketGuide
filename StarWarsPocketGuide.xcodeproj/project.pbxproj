@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2B1E041FC1D39400F518D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2B1E021FC1D39400F518D4 /* Main.storyboard */; };
+		FA2B1E061FC1D39400F518D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2B1E051FC1D39400F518D4 /* Assets.xcassets */; };
+		FA2B1E201FC1D46300F518D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2B1E1E1FC1D46300F518D4 /* LaunchScreen.storyboard */; };
+		FA2B1E2D1FC1D51C00F518D4 /* GeneralListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E221FC1D51B00F518D4 /* GeneralListCell.swift */; };
+		FA2B1E2E1FC1D51C00F518D4 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E231FC1D51B00F518D4 /* Enumerations.swift */; };
+		FA2B1E2F1FC1D51C00F518D4 /* GeneralListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E241FC1D51B00F518D4 /* GeneralListVC.swift */; };
+		FA2B1E301FC1D51C00F518D4 /* FilmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E251FC1D51B00F518D4 /* FilmVC.swift */; };
+		FA2B1E311FC1D51C00F518D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2B1E261FC1D51B00F518D4 /* LaunchScreen.storyboard */; };
+		FA2B1E321FC1D51C00F518D4 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E271FC1D51B00F518D4 /* ActivityIndicator.swift */; };
+		FA2B1E331FC1D51C00F518D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E281FC1D51B00F518D4 /* AppDelegate.swift */; };
+		FA2B1E341FC1D51C00F518D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2B1E291FC1D51C00F518D4 /* Main.storyboard */; };
+		FA2B1E351FC1D51C00F518D4 /* PropsNavigationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E2A1FC1D51C00F518D4 /* PropsNavigationCell.swift */; };
+		FA2B1E361FC1D51C00F518D4 /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E2B1FC1D51C00F518D4 /* LandingVC.swift */; };
+		FA2B1E371FC1D51C00F518D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E2C1FC1D51C00F518D4 /* Extensions.swift */; };
+		FA2B1E3C1FC1D6F600F518D4 /* ListType_UnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1E3B1FC1D6F600F518D4 /* ListType_UnitTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2B1E101FC1D39400F518D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2B1DF31FC1D39400F518D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2B1DFA1FC1D39400F518D4;
+			remoteInfo = StarWarsPocketGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA2B1DFB1FC1D39400F518D4 /* StarWarsPocketGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsPocketGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2B1E031FC1D39400F518D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA2B1E051FC1D39400F518D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2B1E0A1FC1D39400F518D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2B1E0F1FC1D39400F518D4 /* StarWarsPocketGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsPocketGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2B1E151FC1D39400F518D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2B1E1F1FC1D46300F518D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA2B1E211FC1D51B00F518D4 /* StarWarsPocketGuide-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarWarsPocketGuide-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA2B1E221FC1D51B00F518D4 /* GeneralListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralListCell.swift; sourceTree = "<group>"; };
+		FA2B1E231FC1D51B00F518D4 /* Enumerations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		FA2B1E241FC1D51B00F518D4 /* GeneralListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralListVC.swift; sourceTree = "<group>"; };
+		FA2B1E251FC1D51B00F518D4 /* FilmVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmVC.swift; sourceTree = "<group>"; };
+		FA2B1E261FC1D51B00F518D4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA2B1E271FC1D51B00F518D4 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		FA2B1E281FC1D51B00F518D4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA2B1E291FC1D51C00F518D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FA2B1E2A1FC1D51C00F518D4 /* PropsNavigationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropsNavigationCell.swift; sourceTree = "<group>"; };
+		FA2B1E2B1FC1D51C00F518D4 /* LandingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
+		FA2B1E2C1FC1D51C00F518D4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FA2B1E3A1FC1D6F500F518D4 /* StarWarsPocketGuideTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarWarsPocketGuideTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA2B1E3B1FC1D6F600F518D4 /* ListType_UnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListType_UnitTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2B1DF81FC1D39400F518D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2B1E0C1FC1D39400F518D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2B1DF21FC1D39400F518D4 = {
+			isa = PBXGroup;
+			children = (
+				FA2B1DFD1FC1D39400F518D4 /* StarWarsPocketGuide */,
+				FA2B1E121FC1D39400F518D4 /* StarWarsPocketGuideTests */,
+				FA2B1DFC1FC1D39400F518D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2B1DFC1FC1D39400F518D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2B1DFB1FC1D39400F518D4 /* StarWarsPocketGuide.app */,
+				FA2B1E0F1FC1D39400F518D4 /* StarWarsPocketGuideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2B1DFD1FC1D39400F518D4 /* StarWarsPocketGuide */ = {
+			isa = PBXGroup;
+			children = (
+				FA2B1E021FC1D39400F518D4 /* Main.storyboard */,
+				FA2B1E2B1FC1D51C00F518D4 /* LandingVC.swift */,
+				FA2B1E1E1FC1D46300F518D4 /* LaunchScreen.storyboard */,
+				FA2B1E271FC1D51B00F518D4 /* ActivityIndicator.swift */,
+				FA2B1E281FC1D51B00F518D4 /* AppDelegate.swift */,
+				FA2B1E231FC1D51B00F518D4 /* Enumerations.swift */,
+				FA2B1E2C1FC1D51C00F518D4 /* Extensions.swift */,
+				FA2B1E251FC1D51B00F518D4 /* FilmVC.swift */,
+				FA2B1E221FC1D51B00F518D4 /* GeneralListCell.swift */,
+				FA2B1E241FC1D51B00F518D4 /* GeneralListVC.swift */,
+				FA2B1E261FC1D51B00F518D4 /* LaunchScreen.storyboard */,
+				FA2B1E291FC1D51C00F518D4 /* Main.storyboard */,
+				FA2B1E2A1FC1D51C00F518D4 /* PropsNavigationCell.swift */,
+				FA2B1E051FC1D39400F518D4 /* Assets.xcassets */,
+				FA2B1E0A1FC1D39400F518D4 /* Info.plist */,
+				FA2B1E211FC1D51B00F518D4 /* StarWarsPocketGuide-Bridging-Header.h */,
+			);
+			path = StarWarsPocketGuide;
+			sourceTree = "<group>";
+		};
+		FA2B1E121FC1D39400F518D4 /* StarWarsPocketGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2B1E151FC1D39400F518D4 /* Info.plist */,
+				FA2B1E3B1FC1D6F600F518D4 /* ListType_UnitTest.swift */,
+				FA2B1E3A1FC1D6F500F518D4 /* StarWarsPocketGuideTests-Bridging-Header.h */,
+			);
+			path = StarWarsPocketGuideTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2B1DFA1FC1D39400F518D4 /* StarWarsPocketGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2B1E181FC1D39400F518D4 /* Build configuration list for PBXNativeTarget "StarWarsPocketGuide" */;
+			buildPhases = (
+				FA2B1DF71FC1D39400F518D4 /* Sources */,
+				FA2B1DF81FC1D39400F518D4 /* Frameworks */,
+				FACEE7391FC341C00079065F /* Run Lint Script */,
+				FA2B1DF91FC1D39400F518D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWarsPocketGuide;
+			productName = StarWarsPocketGuide;
+			productReference = FA2B1DFB1FC1D39400F518D4 /* StarWarsPocketGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2B1E0E1FC1D39400F518D4 /* StarWarsPocketGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2B1E1B1FC1D39400F518D4 /* Build configuration list for PBXNativeTarget "StarWarsPocketGuideTests" */;
+			buildPhases = (
+				FA2B1E0B1FC1D39400F518D4 /* Sources */,
+				FA2B1E0C1FC1D39400F518D4 /* Frameworks */,
+				FACEE7381FC341810079065F /* Run Lint Script */,
+				FA2B1E0D1FC1D39400F518D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2B1E111FC1D39400F518D4 /* PBXTargetDependency */,
+			);
+			name = StarWarsPocketGuideTests;
+			productName = StarWarsPocketGuideTests;
+			productReference = FA2B1E0F1FC1D39400F518D4 /* StarWarsPocketGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2B1DF31FC1D39400F518D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "RICHARD MONSON-HAEFEL";
+				TargetAttributes = {
+					FA2B1DFA1FC1D39400F518D4 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					FA2B1E0E1FC1D39400F518D4 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA2B1DFA1FC1D39400F518D4;
+					};
+				};
+			};
+			buildConfigurationList = FA2B1DF61FC1D39400F518D4 /* Build configuration list for PBXProject "StarWarsPocketGuide" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2B1DF21FC1D39400F518D4;
+			productRefGroup = FA2B1DFC1FC1D39400F518D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2B1DFA1FC1D39400F518D4 /* StarWarsPocketGuide */,
+				FA2B1E0E1FC1D39400F518D4 /* StarWarsPocketGuideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2B1DF91FC1D39400F518D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2B1E201FC1D46300F518D4 /* LaunchScreen.storyboard in Resources */,
+				FA2B1E341FC1D51C00F518D4 /* Main.storyboard in Resources */,
+				FA2B1E311FC1D51C00F518D4 /* LaunchScreen.storyboard in Resources */,
+				FA2B1E061FC1D39400F518D4 /* Assets.xcassets in Resources */,
+				FA2B1E041FC1D39400F518D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2B1E0D1FC1D39400F518D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FACEE7381FC341810079065F /* Run Lint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Lint Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		FACEE7391FC341C00079065F /* Run Lint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Lint Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2B1DF71FC1D39400F518D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2B1E361FC1D51C00F518D4 /* LandingVC.swift in Sources */,
+				FA2B1E371FC1D51C00F518D4 /* Extensions.swift in Sources */,
+				FA2B1E331FC1D51C00F518D4 /* AppDelegate.swift in Sources */,
+				FA2B1E301FC1D51C00F518D4 /* FilmVC.swift in Sources */,
+				FA2B1E321FC1D51C00F518D4 /* ActivityIndicator.swift in Sources */,
+				FA2B1E2D1FC1D51C00F518D4 /* GeneralListCell.swift in Sources */,
+				FA2B1E2E1FC1D51C00F518D4 /* Enumerations.swift in Sources */,
+				FA2B1E2F1FC1D51C00F518D4 /* GeneralListVC.swift in Sources */,
+				FA2B1E351FC1D51C00F518D4 /* PropsNavigationCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2B1E0B1FC1D39400F518D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2B1E3C1FC1D6F600F518D4 /* ListType_UnitTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2B1E111FC1D39400F518D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2B1DFA1FC1D39400F518D4 /* StarWarsPocketGuide */;
+			targetProxy = FA2B1E101FC1D39400F518D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA2B1E021FC1D39400F518D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2B1E031FC1D39400F518D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA2B1E1E1FC1D46300F518D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2B1E1F1FC1D46300F518D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA2B1E161FC1D39400F518D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA2B1E171FC1D39400F518D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2B1E191FC1D39400F518D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRFTEVS477;
+				INFOPLIST_FILE = StarWarsPocketGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uncommon-design.com.StarWarsPocketGuide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StarWarsPocketGuide/StarWarsPocketGuide-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA2B1E1A1FC1D39400F518D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRFTEVS477;
+				INFOPLIST_FILE = StarWarsPocketGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uncommon-design.com.StarWarsPocketGuide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StarWarsPocketGuide/StarWarsPocketGuide-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA2B1E1C1FC1D39400F518D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRFTEVS477;
+				INFOPLIST_FILE = StarWarsPocketGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uncommon-design.com.StarWarsPocketGuideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StarWarsPocketGuideTests/StarWarsPocketGuideTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWarsPocketGuide.app/StarWarsPocketGuide";
+			};
+			name = Debug;
+		};
+		FA2B1E1D1FC1D39400F518D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRFTEVS477;
+				INFOPLIST_FILE = StarWarsPocketGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uncommon-design.com.StarWarsPocketGuideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StarWarsPocketGuideTests/StarWarsPocketGuideTests-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWarsPocketGuide.app/StarWarsPocketGuide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2B1DF61FC1D39400F518D4 /* Build configuration list for PBXProject "StarWarsPocketGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2B1E161FC1D39400F518D4 /* Debug */,
+				FA2B1E171FC1D39400F518D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2B1E181FC1D39400F518D4 /* Build configuration list for PBXNativeTarget "StarWarsPocketGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2B1E191FC1D39400F518D4 /* Debug */,
+				FA2B1E1A1FC1D39400F518D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2B1E1B1FC1D39400F518D4 /* Build configuration list for PBXNativeTarget "StarWarsPocketGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2B1E1C1FC1D39400F518D4 /* Debug */,
+				FA2B1E1D1FC1D39400F518D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2B1DF31FC1D39400F518D4 /* Project object */;
+}
