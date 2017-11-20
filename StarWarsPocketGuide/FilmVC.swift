@@ -17,7 +17,7 @@ import StarWarsAPI
  `film` property when a film is selected and a segue to this screen is activated.
  The film data, collected and marshaled into the Film model object, is accessed
  returned by the StarWarsAPI Films REST call documented
- [here](https://swapi.co/documentation#films) at the StarWarsAPI.co web site
+ [here](https://swapi.co/documentation#films) at the swapi.co web site
  
  This view allows navigation back to the `LandingVC' as well as deeper to the
  `GeneralListVC` view when a listing (i.e., Characters, Species, Planets, Vehicles, Spaceships) cells are

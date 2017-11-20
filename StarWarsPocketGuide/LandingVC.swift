@@ -37,7 +37,7 @@ public class LandingCell: UITableViewCell {
  
  This view controller orders and displays the film
  titles returned by the StarWarsAPI Films REST call documented
- [here](https://swapi.co/documentation#films) at the StarWarsAPI.co web site
+ [here](https://swapi.co/documentation#films) at the swapi.co web site
  */
 public class LandingVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
