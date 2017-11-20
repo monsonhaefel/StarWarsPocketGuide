@@ -23,7 +23,7 @@ public class ActivityIndicator {
     // MARK: - Singleton
     public static let shared: ActivityIndicator = ActivityIndicator()
 
-    var container: UIView?
+    var container: UIView = UIView()
     var loadingView: UIView?
     var activityIndicator: UIActivityIndicatorView?
 
@@ -36,15 +36,14 @@ public class ActivityIndicator {
             return
         }
 
-        container = UIView()
-        container?.frame = uiView.frame
-        container?.center = uiView.center
-        container?.backgroundColor = UIColorFromHex(rgbValue: 0xffffff, alpha: 0.3)
+        container.frame = uiView.frame
+        container.center = uiView.center
+        container.backgroundColor = UIColor.fromHex(rgbValue: 0xffffff, alpha: 0.3)
 
         loadingView = UIView()
         loadingView?.frame = CGRect(x: 0, y: 0, width: 80, height: 80)
         loadingView?.center = uiView.center
-        loadingView?.backgroundColor = UIColorFromHex(rgbValue: 0x444444, alpha: 0.7)
+        loadingView?.backgroundColor = UIColor.fromHex(rgbValue: 0x444444, alpha: 0.7)
         loadingView?.clipsToBounds = true
         loadingView?.layer.cornerRadius = 10
 
@@ -56,8 +55,8 @@ public class ActivityIndicator {
         activityIndicator?.center = CGPoint(x: (loadingView?.frame.size.width)! / 2, y: (loadingView?.frame.size.height)! / 2)
 
         loadingView?.addSubview(activityIndicator!)
-        container?.addSubview(loadingView!)
-        uiView.addSubview(container!)
+        container.addSubview(loadingView!)
+        uiView.addSubview(container)
         activityIndicator?.startAnimating()
     }
 
@@ -67,26 +66,11 @@ public class ActivityIndicator {
      */
     func hideActivityIndicator() {
         activityIndicator?.stopAnimating()
-        container?.removeFromSuperview()
+        container.removeFromSuperview()
 
         defer {
             activityIndicator = nil
-            container = nil
             loadingView = nil
         }
     }
-
-    /*
-     Define UIColor from hex value
-     
-     @param rgbValue - hex color value
-     @param alpha - transparency level
-     */
-    func UIColorFromHex(rgbValue: UInt32, alpha: Double = 1.0) -> UIColor {
-        let red = CGFloat((rgbValue & 0xFF0000) >> 16) / 256.0
-        let green = CGFloat((rgbValue & 0xFF00) >> 8) / 256.0
-        let blue = CGFloat(rgbValue & 0xFF) / 256.0
-        return UIColor(red: red, green: green, blue: blue, alpha: CGFloat(alpha))
-    }
-
 }

@@ -134,6 +134,21 @@ extension UIImageView {
     }
 }
 
+extension UIColor {
+    /*
+     Define UIColor from hex value
+     
+     @param rgbValue - hex color value
+     @param alpha - transparency level
+     */
+    public static func fromHex(rgbValue: UInt32, alpha: Double = 1.0) -> UIColor {
+        let red = CGFloat((rgbValue & 0xFF0000) >> 16) / 256.0
+        let green = CGFloat((rgbValue & 0xFF00) >> 8) / 256.0
+        let blue = CGFloat(rgbValue & 0xFF) / 256.0
+        return UIColor(red: red, green: green, blue: blue, alpha: CGFloat(alpha))
+    }
+}
+
 extension UIViewController {
 
     func showAlert(title: String, message: String) {
