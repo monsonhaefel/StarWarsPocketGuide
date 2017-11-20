@@ -52,8 +52,9 @@ internal class FilmVC: UIViewController, UITableViewDelegate, UITableViewDataSou
         producerNameLabel.text = film?.producer ?? "Unknown"
         crawlTextArea.text = film?.opening_crawl ?? "No opening craw is available"
 
-        let barImage = UIImage(named: "starwarsnavbanner")//named: imageFilename)
-        self.navigationController?.navigationBar.setBackgroundImage(barImage?.resizableImage(withCapInsets: UIEdgeInsets.zero, resizingMode: .tile), for: .default)
+        let barImage = UIImage(named: "starwarsnavbanner")
+    self.navigationController?.navigationBar.setBackgroundImage(barImage?.resizableImage(withCapInsets: UIEdgeInsets.zero, resizingMode: .tile), for: .default)
+        self.navigationController?.navigationBar.tintColor = UIColor.white
 
         self.titleLabel.text = film?.title
         self.crawlTextArea.backgroundColor = UIColor.black
