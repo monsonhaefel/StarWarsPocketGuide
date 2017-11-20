@@ -6,7 +6,7 @@ target 'StarWarsPocketGuide' do
   use_frameworks!
 
   # Pods for StarWarsPocketGuide
-  pod 'StarWarsAPI', :git => 'https://github.com/monsonhaefel/StarWarsAPI.git', :tag => ‘0.0.1'
+  pod 'StarWarsAPI', :git => 'https://github.com/monsonhaefel/StarWarsAPI.git', :tag => '0.0.1'
 
   target 'StarWarsPocketGuideTests' do
     inherit! :search_paths
