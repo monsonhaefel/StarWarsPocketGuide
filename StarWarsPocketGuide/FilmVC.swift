@@ -77,25 +77,15 @@ internal class FilmVC: UIViewController, UITableViewDelegate, UITableViewDataSou
 
         switch indexPath.row {
         case 0:
-            cell.filmTitle.text = "Characters"
-            let img = UIImage(named: "characters")
-            cell.imageBackground.setImageWithAlphaGradiant(image: img!)
+            cell.configureCell(title: "Characters")
         case 1:
-            cell.filmTitle?.text = "Species"
-            let img = UIImage(named: "species")
-            cell.imageBackground.setImageWithAlphaGradiant(image: img!)
+            cell.configureCell(title: "Species")
         case 2:
-            cell.filmTitle?.text = "Planets"
-            let img = UIImage(named: "planets")
-            cell.imageBackground.setImageWithAlphaGradiant(image: img!)
+            cell.configureCell(title: "Planets")
         case 3:
-            cell.filmTitle?.text = "Ships"
-            let img = UIImage(named: "ships")
-            cell.imageBackground.setImageWithAlphaGradiant(image: img!)
+            cell.configureCell(title: "Ships")
         case 4:
-            cell.filmTitle?.text = "Vehicles"
-            let img = UIImage(named: "vehicles")
-            cell.imageBackground.setImageWithAlphaGradiant(image: img!)
+            cell.configureCell(title: "Vehicles")
         default:
             cell.filmTitle?.text = "Unknown"
         }

@@ -20,10 +20,11 @@ internal class PropsNavigationCell: UITableViewCell {
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    func configureCell(title: String, imgName: String = "") {
+        filmTitle.text = title
+        let imgNm = (imgName == "" ? title : imgName).lowercased()
+        let img = UIImage(named: imgNm)
+        self.imageBackground.setImageWithAlphaGradiant(image: img!)
     }
 
 }
