@@ -22,7 +22,7 @@ import StarWarsAPI
  movie selected. The `name` property for each model object is then displayed in
  this classes table.
  */
-//  swiftlint:disable cyclomatic_complexity force_cast
+//  swiftlint:disable cyclomatic_complexity
 
 internal class GeneralListVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -191,8 +191,7 @@ internal class GeneralListVC: UIViewController, UITableViewDelegate, UITableView
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-        let cell = tableView.dequeueReusableCell(withIdentifier: GeneralListCell.identifier, for: indexPath) as! GeneralListCell
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "GeneralListCell", for: indexPath)
         switch listType! {
         case .Characters:
             if let person = displayObjects![indexPath.row] as? People {
